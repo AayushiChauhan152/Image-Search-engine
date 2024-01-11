@@ -7,7 +7,7 @@ let page = 1;
 async function searchImages() {
   var searchTerm = document.getElementById("searchTerm").value;
 
-  var accessKey = "-bUcgjmc58_zN8vLvBdS0uF-kvaQGrjChVMJD0LxJ3s"; // Replace with your Search Engine ID
+  var accessKey = Replace with your unsplash developer access key; 
   const url = `https://api.unsplash.com/search/photos?page=${page}&query=${searchTerm}&client_id=${accessKey}&per_page=12`;
 
   const response = await fetch(url);
